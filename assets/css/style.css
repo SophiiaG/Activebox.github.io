@@ -1,0 +1,294 @@
+body{
+  font-family: 'arial';
+}
+.topHead{
+  height: 750px;
+  width: 100vw;
+  background-image: url("../img/banner.jpg");
+  backgr
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.menu{
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  line-height: 100px;
+}
+
+.wrapper{
+  width: 1170px;
+  margin: 0 auto;
+}
+
+h1{
+  float: left;
+}
+
+.navElement{
+  display: inline;
+  padding-right: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.navElement-link{
+  color: white;
+}
+.navElement:last-child{
+  padding-right: 0px;
+}
+hr{
+border: solid #FAFAFA 1px;
+}
+.header-content{
+  height: 650px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+h2{
+  font-size: 65px;
+  text-transform: uppercase;
+}
+.header-content-child{
+  height: 262px;
+  text-align: center;
+}
+.moreButton{
+  margin-top:30px;
+  background-color: red;
+  height: 40px;
+  width: 170px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 3px;
+}
+.moreButton:hover{
+  opacity: 0.7;
+}
+.baseline{
+  margin-top: 30px;
+}
+.abilities{
+  height: 690px;
+  padding: 30px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  padding-bottom: 80px;
+}
+.row:last-child{
+  padding-bottom: 0px;
+}
+.row-child{
+  width: 33.3%;
+  text-align: center;
+}
+
+h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.row-child-content{
+  line-height: 20px;
+  font-size: 13px;
+  color: #6C7279;
+  padding: 0 20px;
+}
+.section-img {
+  height: 400px;
+}
+.row-img-child:hover{
+  opacity: 0.8;
+  transform: scale(0.9);
+}
+
+.row-img{
+  display: flex;
+  height: 50%;
+}
+.row-img-child{
+  width: 25%;
+  transition: transform .2s;
+}
+.row-img-child.img-1 {
+background-image: url("../img/work-1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.row-img-child.img-2 {
+background-image: url("../img/work-2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.row-img-child.img-3 {
+background-image: url("../img/work-3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.row-img-child.img-4 {
+background-image: url("../img/work-4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.row-img-child.img-5 {
+background-image: url("../img/work-5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.row-img-child.img-6 {
+background-image: url("../img/work-6.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.row-img-child.img-7 {
+background-image: url("../img/work-7.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.row-img-child.img-8 {
+background-image: url("../img/work-8.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.section-team{
+  height: 780px;
+  display: flex;
+}
+
+.testimonials{
+  width: 25%;
+  padding: 0 20px;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.testimonials:first-child{
+  padding-right: 15px;
+  padding-left: 0px;
+}
+.testimonials:last-child{
+  padding-left: 15px;
+  padding-right: 0px;
+}
+.testimonials-img{
+  width: 100%;
+}
+h4{
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+h5{
+  text-transform: uppercase;
+  color: red;
+  margin-bottom: 10px;
+}
+.testimonials-content{
+color: #6C7279;
+font-size: 14px;
+line-height: 21px;
+}
+
+.picto{
+  width: 25px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.picto:last-child{
+  padding-right: 0px;
+}
+
+.reference{
+  height: 500px;
+  display: flex;
+}
+.ref-left{
+  background-color: grey;
+  width:50%;
+  background-image: url(../img/testimonial-1.jpg);
+  background-position: center;
+}
+.ref-right{
+  background-color: #53354A;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.quotation{
+  font-size: 20px;
+  color: white;
+  line-height: 30px;
+  padding-left: 60px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+.signature{
+  font-size: 15px;
+  color: white;
+  padding-left: 60px;
+}
+.download{
+  height: 340px;
+  text-align: center;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+h6{
+  font-size: 26px;
+}
+.dlBaseline{
+  text-transform: uppercase;
+  padding-bottom: 22px;
+}
+.downloadButton{
+  text-align: center;
+  background-color: red;
+  height: 40px;
+  width: 250px;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+footer{
+  height: 250px;
+  background-color: #3A3E64;
+  display: flex;
+}
+.infos{
+  width: 33.3%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.categories{
+  color: white;
+  padding-bottom: 22px;
+}
+.details{
+  color: grey;
+  line-height: 22px;
+}
